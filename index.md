@@ -4,7 +4,7 @@ title: "Advanced R"
 author: ["Hadley Wickham"]
 description: "The book is designed primarily for R users who want to improve their programming skills and understanding of the language.  It should also be useful for programmers coming to R from other languages, as help you to understand why R works the way it does."
 url: 'https\://adv-r.hadley.nz/'
-github-repo: advkr/adv-r
+github-repo: hadley/adv-r
 twitter-handle: hadley
 cover-image: cover.png
 site: bookdown::bookdown_site
@@ -13,7 +13,7 @@ bibliography: book.bib
 link-citations: yes
 ---
 
-`r if (knitr::is_latex_output()) '<!--'` 
+ 
 
 # Welcome {-}
 
@@ -46,4 +46,4 @@ You may also be interested in:
 * __"[R Packages](http://r-pkgs.had.co.nz/)"__ which teaches you 
   how to make the most of R's fantastic package system.
 
-`r if (knitr::is_latex_output()) '-->'`
+
