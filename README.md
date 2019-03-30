@@ -1,6 +1,8 @@
-# Advanced R 한국어 번역
+# Advanced R 한국어 번역 프로젝트
 
 [![Build Status](https://travis-ci.org/advrkr/adv-r.svg?branch=master)](https://travis-ci.org/advrkr/adv-r)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5f44615c-61a2-4481-80ca-dcfa21e31f4b/deploy-status)](https://app.netlify.com/sites/advrkr/deploys)
+
 
 This is code and text behind the [Advanced R](http://adv-r.hadley.nz)
 book.  The site is built with [bookdown](https://bookdown.org/yihui/bookdown/).
