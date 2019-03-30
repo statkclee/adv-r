@@ -25,9 +25,13 @@ matrix:
     after_success:
     - nvm install stable
     - npm install netlify-cli -g
+    - export COMMIT_MSG=$(git log -1 --format='%h %<(50,trunc)%s')
+    - echo $COMMIT_MSG
+    - export DEPLOY_MSG=${COMMIT_MSG//[\'\"\`]/}
+    - echo $DEPLOY_MSG
     deploy:
       provider: script
-      script: netlify deploy --prod --dir _book
+      script: netlify deploy --prod --dir _book --message "$DEPLOY_MSG"
       skip_cleanup: true
   - r: release
     env: rlang='github'
