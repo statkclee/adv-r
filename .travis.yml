@@ -14,6 +14,10 @@ before_script:
 script:
 - Rscript -e 'bookdown::render_book("index.Rmd")'
 
+env:
+  - NETLIFY_SITE_ID=5f44615c-61a2-4481-80ca-dcfa21e31f4b
+  # NETLIFY_AUTH_TOKEN set in travis settings
+
 matrix:
   include:
   - r: release
@@ -28,4 +32,3 @@ matrix:
   - r: release
     env: rlang='github'
     before_script: Rscript -e "remotes::install_github('r-lib/rlang')"
-  - r: devel
