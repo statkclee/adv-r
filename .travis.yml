@@ -32,3 +32,7 @@ matrix:
   - r: release
     env: rlang='github'
     before_script: Rscript -e "remotes::install_github('r-lib/rlang')"
+
+notifications:
+  email:
+    - $EMAIL_MRCP
