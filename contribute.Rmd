@@ -1,29 +1,24 @@
 ---
-title: Contributing
+title: 기여하기
 layout: default
 ---
 
-# Contributing
+# 기여하기
 
-This book has been developed in the open, and it wouldn't be nearly as good 
-without your contributions. There are a number of ways you can help make the
-book even better:
+본 책은 공개된 상태로 개발되었기 때문에 여러분들의 기여가 없었다면 이와 같이 훌륭한 상태가 될 수는 없었을 것이다. 본서를 더 좋게 만들 수 있는 방법이 다수 존재한다:
 
-* If you don't understand something, please 
-  [let me know](mailto:h.wickham@gmail.com). Your feedback on what is confusing
-  or hard to understand is valuable.
+* 이해하지 못하는 것이 있다면 [저자(하들리 위캠)](mailto:h.wickham@gmail.com)에게 연락주세요. 혼동스럽거나 이해하기 힘든 것에 대한 피드백은 무척이나 가치가 있다.
 
-* If you spot a typo, feel free to edit the underlying page and send a pull 
-  request. If you've never done this before, the process is very easy: 
+* 오탈자를 찾게 되는 경우, 해당 페이지를 자유로이 편집해서 풀요청을 보내주세요.
+이런 작업을 예전에 수행한 적이 없다면, 추진과정은 무척이나 쉽다:
   
-    * Click the edit this page on the sidebar.
+    * 스라이더 막대에 해당 페이지를 편집하세요(edit this page)를 클릭한다.
   
-    * Make the changes using GitHub's in-page editor (fixing typos is
-      perfectly adequate).
+    * GitHub 편집기를 사용해서 변경한다(오탈자를 교정하는데 완벽하게 적합하다)  
       
-    * Include a brief description of your changes in the area below the
-      editor, then propose the file change. If you make significant changes,
-      include the phrase "I assign the copyright of this contribution to
-      Hadley Wickham" - I need this so I can publish the printed book.
+    * 편집기 아래 영역에 변경사항을 간략히 기술하고 나서, 파일에 대한 변경사항을 제안한다.
+      변경사항이 많은 경우 "하들리 위캠에게 해당 변경사항에 대한 저작권을 이양한다"라는 
+      문구도 포함시킨다 - 저자가 이를 필요로하는 이유는 이래야만 도서형태로 출판할 수 
+      있기 때문이다.
     
-    * Create a pull request.
+    * 풀요청(pull request)를 생성한다.
